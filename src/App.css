@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+
+/* won style--------*/
+
+.card{
+ margin: 10px;
+ padding: 10px;
+ background-color:black;
+ color: whitesmoke;
+}
+
+.btn{
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+
+}
+.btn:hover{
+  background-color:darkorange;
+}
+
+section{
+  display: grid;
+}
+
+@media screen and (min-width: 600px){
+  section{
+  grid-template-columns: auto auto;
+}
+}
+
+@media screen and (min-width: 768px){
+  section{
+  grid-template-columns: auto auto auto;
+}
+}
+
+
+@media screen and (min-width: 992px){
+  section{
+  grid-template-columns: auto auto auto auto;
+}
+}
+
+table{width: 80%; margin:  0 auto; border: 1px solid gray; margin-top: 10px}
+tr{
+  border: 1px solid gray;
+}
+td{
+ width: 30%;
+ border: 1px solid gray;
+}
+.form-area{
+
+  background-color: silver;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px;
+
+}
+
+.field-group{
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.inputiled{
+  width: 300px;
+  height:30px;
+  margin-left: 15px;
+  border: 1px solid gray;
+
+}
+
+
+
